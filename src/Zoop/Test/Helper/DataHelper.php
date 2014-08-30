@@ -7,12 +7,12 @@ use Doctrine\ODM\MongoDB\DocumentManager;
 class DataHelper
 {
     /**
-     * @param ModelManager $dm
+     * @param DocumentManager $dm
      * @param mixed $document
      * @param string $id
      * @return mixed
      */
-    public static function get(ModelManager $dm, $document, $id)
+    public static function get(DocumentManager $dm, $document, $id)
     {
         return $dm->getRepository($document)
             ->find($id);
