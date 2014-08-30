@@ -1,0 +1,34 @@
+{
+    "name": "zoopcommerce/commerce-test-data-module",
+    "description": "Test Data Module for Zoop Commerce",
+    "type": "library",
+    "keywords": [
+        "zoop",
+        "commerce",
+        "doctrine",
+        "zf2",
+        "zoop",
+        "shard",
+        "mongo"
+    ],
+    "homepage": "http://zoopcommerce.com",
+    "authors": [
+        {
+            "name": "Josh Stuart",
+            "email": "josh.stuart@zoopcommerce.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit"           : ">=3.7",
+        "squizlabs/php_codesniffer" : "1.4.*",
+        "phpmd/phpmd"               : "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zoop\\Test": "src/"
+        }
+    }
+}

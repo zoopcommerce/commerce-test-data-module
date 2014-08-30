@@ -1,0 +1,37 @@
+[
+    {
+        "_id": "tesla",
+        "name": "Tesla",
+        "subdomain": "tesla",
+        "domains": [
+            "teslamotors.com"
+        ],
+        "email": "info@teslamotors.com",
+        "createdOn" : "2014-08-09T07:53:12Z",
+        "softDeleted" : false
+    },
+    {
+        "_id": "apple",
+        "name": "Apple",
+        "subdomain": "apple",
+        "domains": [
+            "apple.com",
+            "apple.com.au"
+        ],
+        "email": "info@apple.com",
+        "createdOn" : "2014-08-09T07:53:12Z",
+        "softDeleted" : false
+    },
+    {
+        "_id": "google",
+        "name": "Google",
+        "subdomain": "google",
+        "domains": [
+            "google.com",
+            "google.com.au"
+        ],
+        "email": "info@google.com",
+        "createdOn" : "2014-08-09T07:53:12Z",
+        "softDeleted" : false
+    }
+]
