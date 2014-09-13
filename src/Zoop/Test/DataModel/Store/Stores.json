@@ -7,8 +7,9 @@
             "teslamotors.com"
         ],
         "email": "info@teslamotors.com",
-        "createdOn" : "2014-08-09T07:53:12Z",
-        "softDeleted" : false
+        "isMaintenanceMode": false,
+        "createdOn": "2014-08-09T07:53:12Z",
+        "softDeleted": false
     },
     {
         "_id": "apple",
@@ -19,8 +20,9 @@
             "apple.com.au"
         ],
         "email": "info@apple.com",
-        "createdOn" : "2014-08-09T07:53:12Z",
-        "softDeleted" : false
+        "isMaintenanceMode": false,
+        "createdOn": "2014-08-09T07:53:12Z",
+        "softDeleted": false
     },
     {
         "_id": "google",
@@ -31,7 +33,8 @@
             "google.com.au"
         ],
         "email": "info@google.com",
-        "createdOn" : "2014-08-09T07:53:12Z",
-        "softDeleted" : false
+        "isMaintenanceMode": false,
+        "createdOn": "2014-08-09T07:53:12Z",
+        "softDeleted": false
     }
 ]

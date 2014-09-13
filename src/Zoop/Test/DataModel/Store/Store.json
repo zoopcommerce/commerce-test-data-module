@@ -1,6 +1,13 @@
 {
-    "slug": "apple",
+    "_id": "apple",
     "name": "Apple",
     "subdomain": "apple",
-    "email": "info@apple.com"
+    "domains": [
+        "apple.com",
+        "apple.com.au"
+    ],
+    "email": "info@apple.com",
+    "isMaintenanceMode": false,
+    "createdOn" : "2014-08-09T07:53:12Z",
+    "softDeleted" : false
 }
