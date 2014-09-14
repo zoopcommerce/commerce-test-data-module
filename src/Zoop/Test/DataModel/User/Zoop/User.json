@@ -8,6 +8,6 @@
   "softDeleted" : false,
   "password" : "$2y$10$cGFzc3dvcmRwYXNzd29yZ.jrkSn9Ipc1D4J9voD5AyNUkmiTuwgbq",
   "salt" : "passwordpasswordpasswordpasswordpassword",
-  "roles" : ["zoop-admin"],
-  "type" : "ZoopAdmin"
+  "roles" : ["zoop::admin"],
+  "type" : "zoop::admin"
 }

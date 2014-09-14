@@ -8,7 +8,7 @@
   "softDeleted" : false,
   "password" : "$2y$10$UHlVZ0YrbGhITTlUOEJPQOqgcLICqS5mjqPZr0YvmweeBcXk9ZOCe",
   "salt" : "PyUgF+lhHM9T8BOAarTmsTg+2xe8we",
-  "roles" : ["partner-admin"],
+  "roles" : ["partner::admin"],
   "merchants" : ["nestle", "bmw", "youtube"],
-  "type" : "PartnerAdmin"
+  "type" : "partner::admin"
 }

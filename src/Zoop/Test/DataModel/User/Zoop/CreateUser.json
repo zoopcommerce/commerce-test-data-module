@@ -4,5 +4,5 @@
   "lastName" : "Roediger",
   "email" : "tim@zoopcommerce.com",
   "password" : "password2s",
-  "type" : "ZoopAdmin"
+  "type" : "zoop::admin"
 }
