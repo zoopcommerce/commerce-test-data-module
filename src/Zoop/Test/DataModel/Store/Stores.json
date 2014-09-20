@@ -36,5 +36,54 @@
         "isMaintenanceMode": false,
         "createdOn": "2014-08-09T07:53:12Z",
         "softDeleted": false
+    },
+    {
+        "_id": "nespresso-en-us",
+        "name": "Nestle - US",
+        "subdomain": "nestle",
+        "domains": [
+            "nestle.com"
+        ],
+        "email": "info@nestle.com",
+        "isMaintenanceMode": false,
+        "createdOn": "2014-08-09T07:53:12Z",
+        "softDeleted": false
+    },
+    {
+        "_id": "nespresso-en-au",
+        "name": "Nestle - Australia",
+        "subdomain": "nestle-au",
+        "domains": [
+            "nestle.com.au"
+        ],
+        "email": "info@nestle.com.au",
+        "isMaintenanceMode": false,
+        "createdOn": "2014-08-09T07:53:12Z",
+        "softDeleted": false
+    },
+    {
+        "_id": "bmw",
+        "name": "BMW",
+        "subdomain": "bmw",
+        "domains": [
+            "bmw.com",
+            "bmw.com.au"
+        ],
+        "email": "info@bmw.com",
+        "isMaintenanceMode": false,
+        "createdOn": "2014-08-09T07:53:12Z",
+        "softDeleted": false
+    },
+    {
+        "_id": "youtube",
+        "name": "Youtube",
+        "subdomain": "youtube",
+        "domains": [
+            "youtube.com"
+        ],
+        "email": "info@youtube.com",
+        "isMaintenanceMode": false,
+        "createdOn": "2014-08-09T07:53:12Z",
+        "softDeleted": false
     }
 ]
