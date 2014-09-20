@@ -1,5 +1,5 @@
 {
-  "_id" : "bigspaceship",
+  "_id" : "michaelebpwotz",
   "firstName" : "Michael",
   "lastName" : "Lebowitz",
   "email" : "c7d7a35980358bb80e1bb2c3c3977685363f967dcde61915a3d647f620819b67Y2hhbmdlIHRoaXMgc2FsdJovGUzuEbwQXNCOpDr8oSALX8JvhecnRXnf8CLZQ8Rd",
@@ -9,6 +9,8 @@
   "password" : "$2y$10$UHlVZ0YrbGhITTlUOEJPQOqgcLICqS5mjqPZr0YvmweeBcXk9ZOCe",
   "salt" : "PyUgF+lhHM9T8BOAarTmsTg+2xe8we",
   "roles" : ["partner::admin"],
-  "merchants" : ["nestle", "bmw", "youtube"],
+  "partner": "bigspaceship",
+  "companies" : ["nestle", "bmw", "youtube"],
+  "stores" : ["nespresso-en-us", "nespresso-en-au", "bmw", "youtube"],
   "type" : "partner::admin"
 }
