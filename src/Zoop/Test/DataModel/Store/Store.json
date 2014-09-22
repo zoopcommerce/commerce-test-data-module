@@ -1,8 +1,9 @@
 {
     "_id": "apple",
     "name": "Apple",
-    "subdomain": "apple",
+    "primaryDomain": "apple.zoopcommerce.local",
     "domains": [
+        "apple.zoopcommerce.local",
         "apple.com",
         "apple.com.au"
     ],
