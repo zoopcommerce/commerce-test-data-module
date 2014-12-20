@@ -9,6 +9,8 @@
         ],
         "email": "info@teslamotors.com",
         "isMaintenanceMode": false,
+        "isActive": true,
+        "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
         "softDeleted": false
     },
@@ -23,6 +25,8 @@
         ],
         "email": "info@apple.com",
         "isMaintenanceMode": false,
+        "isActive": true,
+        "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
         "softDeleted": false
     },
@@ -37,6 +41,8 @@
         ],
         "email": "info@google.com",
         "isMaintenanceMode": false,
+        "isActive": true,
+        "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
         "softDeleted": false
     },
@@ -50,6 +56,8 @@
         ],
         "email": "info@nestle.com",
         "isMaintenanceMode": false,
+        "isActive": true,
+        "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
         "softDeleted": false
     },
@@ -63,6 +71,8 @@
         ],
         "email": "info@nestle.com.au",
         "isMaintenanceMode": false,
+        "isActive": true,
+        "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
         "softDeleted": false
     },
@@ -77,6 +87,8 @@
         ],
         "email": "info@bmw.com",
         "isMaintenanceMode": false,
+        "isActive": true,
+        "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
         "softDeleted": false
     },
@@ -90,6 +102,8 @@
         ],
         "email": "info@youtube.com",
         "isMaintenanceMode": false,
+        "isActive": true,
+        "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
         "softDeleted": false
     }
