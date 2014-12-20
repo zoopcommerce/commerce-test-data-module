@@ -12,6 +12,8 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
+        "canDisplay": true,
+        "isActive": true,
         "softDeleted": false
     },
     {
@@ -28,6 +30,8 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
+        "canDisplay": true,
+        "isActive": true,
         "softDeleted": false
     },
     {
@@ -44,6 +48,8 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
+        "canDisplay": true,
+        "isActive": true,
         "softDeleted": false
     },
     {
@@ -59,6 +65,8 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
+        "canDisplay": true,
+        "isActive": true,
         "softDeleted": false
     },
     {
@@ -74,6 +82,8 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
+        "canDisplay": true,
+        "isActive": true,
         "softDeleted": false
     },
     {
@@ -90,6 +100,8 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
+        "canDisplay": true,
+        "isActive": true,
         "softDeleted": false
     },
     {
@@ -105,6 +117,8 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
+        "canDisplay": true,
+        "isActive": true,
         "softDeleted": false
     }
 ]
