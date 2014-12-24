@@ -10,7 +10,6 @@
   "salt" : "PyUgF+lhHM9T8BOAarTmsTg+2xe8we",
   "roles" : ["partner::admin"],
   "partner": "bigspaceship",
-  "companies" : ["nestle", "bmw", "youtube"],
-  "stores" : ["nespresso-en-us", "nespresso-en-au", "bmw", "youtube"],
+  "entities" : ["nestle", "nespresso-en-us", "nespresso-en-au", "bmw", "youtube"],
   "type" : "partner::admin"
 }

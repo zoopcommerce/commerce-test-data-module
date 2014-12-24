@@ -9,7 +9,6 @@
   "password" : "$2y$10$NXFxVEd1Snd6RzlvUFVNaO8ddm54rDR9xGfPDb6y8vW7wVpmhnWY2",
   "salt" : "5qqTGuJwzG9oPUMiC7GmgQz+g5xX+i",
   "roles" : ["company::admin"],
-  "company": "nespresso",
-  "stores" : ["nespresso-en-us", "nespresso-en-au"],
-  "type" : "company::admin"
+  "entities" : ["nespresso", "nespresso-en-us", "nespresso-en-au"],
+  "type" : "customer::admin"
 }
