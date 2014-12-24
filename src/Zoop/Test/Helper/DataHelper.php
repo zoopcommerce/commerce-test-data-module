@@ -34,7 +34,7 @@ class DataHelper
     public static function createZoopUser(DocumentManager $dm, $dbName)
     {
         $json = self::getJson('DataModel/User/Zoop/User');
-        self::insertDocument($dm, $dbName, 'User', $json);
+        self::insertDocument($dm, $dbName, 'Users', $json);
     }
 
     /**
@@ -44,17 +44,17 @@ class DataHelper
     public static function createPartnerUser(DocumentManager $dm, $dbName)
     {
         $json = self::getJson('DataModel/User/Partner/User');
-        self::insertDocument($dm, $dbName, 'User', $json);
+        self::insertDocument($dm, $dbName, 'Users', $json);
     }
 
     /**
      * @param DocumentManager $dm
      * @param string $dbName
      */
-    public static function createCompanyUser(DocumentManager $dm, $dbName)
+    public static function createCustomerUser(DocumentManager $dm, $dbName)
     {
-        $json = self::getJson('DataModel/User/Company/User');
-        self::insertDocument($dm, $dbName, 'User', $json);
+        $json = self::getJson('DataModel/User/Customer/User');
+        self::insertDocument($dm, $dbName, 'Users', $json);
     }
 
     /**
