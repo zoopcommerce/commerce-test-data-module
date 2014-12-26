@@ -1,5 +1,6 @@
 {
     "_id": "apple",
+    "type": "Store",
     "name": "Apple",
     "primaryDomain": "apple.zoopcommerce.local",
     "domains": [

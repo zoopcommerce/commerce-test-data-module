@@ -64,29 +64,29 @@ class DataHelper
     public static function createPartner(DocumentManager $dm, $dbName)
     {
         $json = self::getJson('DataModel/Partner/Partner');
-        self::insertDocument($dm, $dbName, 'Partner', $json);
+        self::insertDocument($dm, $dbName, 'Entities', $json);
     }
 
     /**
      * @param DocumentManager $dm
      * @param string $dbName
      */
-    public static function createStore(DocumentManager $dm, $dbName)
+    public static function createEntity(DocumentManager $dm, $dbName)
     {
-        $json = self::getJson('DataModel/Store/Store');
-        self::insertDocument($dm, $dbName, 'Store', $json);
+        $json = self::getJson('DataModel/Entity/Entity');
+        self::insertDocument($dm, $dbName, 'Entities', $json);
     }
 
     /**
      * @param DocumentManager $dm
      * @param string $dbName
      */
-    public static function createStores(DocumentManager $dm, $dbName)
+    public static function createEntities(DocumentManager $dm, $dbName)
     {
-        $json = self::getJson('DataModel/Store/Stores');
+        $json = self::getJson('DataModel/Entity/Entities');
         $stores = json_decode($json, true);
         foreach ($stores as $store) {
-            self::insertDocument($dm, $dbName, 'Store', json_encode($store));
+            self::insertDocument($dm, $dbName, 'Entities', json_encode($store));
         }
     }
 
