@@ -9,7 +9,6 @@
   "password" : "$2y$10$UHlVZ0YrbGhITTlUOEJPQOqgcLICqS5mjqPZr0YvmweeBcXk9ZOCe",
   "salt" : "PyUgF+lhHM9T8BOAarTmsTg+2xe8we",
   "roles" : ["partner::admin"],
-  "partner": "bigspaceship",
-  "entities" : ["nestle", "nespresso-en-us", "nespresso-en-au", "bmw", "youtube"],
+  "entities" : ["bigspaceship"],
   "type" : "partner::admin"
 }

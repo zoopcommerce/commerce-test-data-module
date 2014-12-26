@@ -1,6 +1,24 @@
 [
     {
+        "_id": "blanka",
+        "type": "System",
+        "name": "Blanka",
+        "primaryDomain": "blanka.local",
+        "domains": [
+            "blanka.zoopcommerce.local",
+            "blanka.local",
+            "blanka.com"
+        ],
+        "email": "info@blanka.com",
+        "isMaintenanceMode": false,
+        "isActive": true,
+        "canDisplay": true,
+        "createdOn": "2014-08-09T07:53:12Z",
+        "softDeleted": false
+    },
+    {
         "_id": "tesla",
+        "type": "Store",
         "name": "Tesla",
         "primaryDomain": "tesla.zoopcommerce.local",
         "domains": [
@@ -12,14 +30,13 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
-        "canDisplay": true,
-        "isActive": true,
         "softDeleted": false
     },
     {
         "_id": "apple",
+        "type": "Customer",
         "name": "Apple",
-        "primaryDomain": "apple.zoopcommerce.local",
+        "primaryDomain": "apple.com",
         "domains": [
             "apple.zoopcommerce.local",
             "apple.com",
@@ -30,12 +47,11 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
-        "canDisplay": true,
-        "isActive": true,
         "softDeleted": false
     },
     {
         "_id": "google",
+        "type": "Customer",
         "name": "Google",
         "primaryDomain": "google.zoopcommerce.local",
         "domains": [
@@ -48,16 +64,38 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
-        "canDisplay": true,
+        "softDeleted": false
+    },
+    {
+        "_id": "authenticentertainment",
+        "type": "Partner",
+        "name": "Authentic Entertainment",
+        "email": "info@authenticentertainment.com.au",
+        "phoneNumber": "+1 718 222 0281",
+        "address": {
+            "line1": "Level 4 21-31 Goodwood Street",
+            "city": "Richmond",
+            "state": "VIC",
+            "postcode": "3121",
+            "country": "AU"
+        },
+        "primaryDomain": "authenticentertainment.com.au",
+        "domains": [
+            "authenticentertainment.com.au"
+        ],
+        "isMaintenanceMode": false,
         "isActive": true,
+        "canDisplay": true,
+        "createdOn": "2014-08-09T07:53:12Z",
         "softDeleted": false
     },
     {
         "_id": "nespresso-en-us",
-        "name": "Nestle - US",
-        "primaryDomain": "nestle.zoopcommerce.local",
+        "type": "Store",
+        "name": "Nespresso - US",
+        "primaryDomain": "store.nestle.local",
         "domains": [
-            "nestle.zoopcommerce.local",
+            "store.nestle.local",
             "nestle.com"
         ],
         "email": "info@nestle.com",
@@ -65,13 +103,12 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
-        "canDisplay": true,
-        "isActive": true,
         "softDeleted": false
     },
     {
         "_id": "nespresso-en-au",
-        "name": "Nestle - Australia",
+        "type": "Store",
+        "name": "Nespresso - Australia",
         "primaryDomain": "nestle-au.zoopcommerce.local",
         "domains": [
             "nestle-au.zoopcommerce.local",
@@ -82,12 +119,11 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
-        "canDisplay": true,
-        "isActive": true,
         "softDeleted": false
     },
     {
         "_id": "bmw",
+        "type": "Store",
         "name": "BMW",
         "primaryDomain": "bmw.zoopcommerce.local",
         "domains": [
@@ -100,12 +136,11 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
-        "canDisplay": true,
-        "isActive": true,
         "softDeleted": false
     },
     {
         "_id": "youtube",
+        "type": "Store",
         "name": "Youtube",
         "primaryDomain": "youtube.zoopcommerce.local",
         "domains": [
@@ -117,8 +152,6 @@
         "isActive": true,
         "canDisplay": true,
         "createdOn": "2014-08-09T07:53:12Z",
-        "canDisplay": true,
-        "isActive": true,
         "softDeleted": false
     }
 ]

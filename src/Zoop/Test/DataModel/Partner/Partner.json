@@ -1,8 +1,13 @@
 {
     "_id": "bigspaceship",
+    "type": "Partner",
     "name": "Big Spaceship",
     "email": "info@bigspaceship.com",
     "phoneNumber": "+1 718 222 0281",
+    "primaryDomain": "bigspaceship.com",
+    "domains": [
+        "bigspaceship.com"
+    ],
     "address": {
         "line1": "45 Main St. Suite 716",
         "city": "Brooklyn",
