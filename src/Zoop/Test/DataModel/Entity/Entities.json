@@ -3,13 +3,13 @@
         "_id": "blanka",
         "type": "System",
         "name": "Blanka",
-        "primaryDomain": "blanka.local",
+        "primaryDomain": "blanka.co",
         "domains": [
             "blanka.zoopcommerce.local",
             "blanka.local",
-            "blanka.com"
+            "blanka.co"
         ],
-        "email": "info@blanka.com",
+        "email": "info@blanka.co",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -26,6 +26,9 @@
             "teslamotors.com"
         ],
         "email": "info@teslamotors.com",
+        "entities": [
+            "tesla"
+        ],
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -43,6 +46,9 @@
             "apple.com.au"
         ],
         "email": "info@apple.com",
+        "entities": [
+            "apple"
+        ],
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -60,6 +66,9 @@
             "google.com.au"
         ],
         "email": "info@google.com",
+        "entities": [
+            "google"
+        ],
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -71,6 +80,9 @@
         "type": "Partner",
         "name": "Authentic Entertainment",
         "email": "info@authenticentertainment.com.au",
+        "entities": [
+            "authenticentertainment"
+        ],
         "phoneNumber": "+1 718 222 0281",
         "address": {
             "line1": "Level 4 21-31 Goodwood Street",
@@ -99,6 +111,9 @@
             "nestle.com"
         ],
         "email": "info@nestle.com",
+        "entities": [
+            "nespresso-en-us"
+        ],
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -115,6 +130,9 @@
             "nestle.com.au"
         ],
         "email": "info@nestle.com.au",
+        "entities": [
+            "nespresso-en-au"
+        ],
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -132,6 +150,9 @@
             "bmw.com.au"
         ],
         "email": "info@bmw.com",
+        "entities": [
+            "bmw"
+        ],
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -148,6 +169,9 @@
             "youtube.com"
         ],
         "email": "info@youtube.com",
+        "entities": [
+            "youtube"
+        ],
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
