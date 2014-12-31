@@ -29,6 +29,27 @@
         "entities": [
             "tesla"
         ],
+        "customer": "muskinc",
+        "isMaintenanceMode": false,
+        "isActive": true,
+        "canDisplay": true,
+        "createdOn": "2014-08-09T07:53:12Z",
+        "softDeleted": false
+    },
+    {
+        "_id": "muskinc",
+        "type": "Customer",
+        "name": "Musk Inc",
+        "primaryDomain": "muskinc.com",
+        "domains": [
+            "muskinc.com"
+        ],
+        "email": "elon@muskinc.com",
+        "entities": [
+            "muskinc",
+            "tesla"
+        ],
+        "partner": "authenticentertainment",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -49,6 +70,7 @@
         "entities": [
             "apple"
         ],
+        "partner": "authenticentertainment",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -59,16 +81,17 @@
         "_id": "google",
         "type": "Customer",
         "name": "Google",
-        "primaryDomain": "google.zoopcommerce.local",
+        "primaryDomain": "google.com",
         "domains": [
-            "google.zoopcommerce.local",
             "google.com",
             "google.com.au"
         ],
         "email": "info@google.com",
         "entities": [
-            "google"
+            "google",
+            "youtube"
         ],
+        "partner": "authenticentertainment",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -81,7 +104,11 @@
         "name": "Authentic Entertainment",
         "email": "info@authenticentertainment.com.au",
         "entities": [
-            "authenticentertainment"
+            "authenticentertainment",
+            "google",
+            "youtube",
+            "muskinc",
+            "tesla"
         ],
         "phoneNumber": "+1 718 222 0281",
         "address": {
@@ -114,6 +141,7 @@
         "entities": [
             "nespresso-en-us"
         ],
+        "customer": "nespresso",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -133,6 +161,7 @@
         "entities": [
             "nespresso-en-au"
         ],
+        "customer": "nespresso",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -172,6 +201,7 @@
         "entities": [
             "youtube"
         ],
+        "customer": "google",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
