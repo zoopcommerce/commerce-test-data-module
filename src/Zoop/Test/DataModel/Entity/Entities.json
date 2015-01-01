@@ -3,13 +3,13 @@
         "_id": "blanka",
         "type": "System",
         "name": "Blanka",
-        "primaryDomain": "blanka.local",
+        "primaryDomain": "blanka.co",
         "domains": [
             "blanka.zoopcommerce.local",
             "blanka.local",
-            "blanka.com"
+            "blanka.co"
         ],
-        "email": "info@blanka.com",
+        "email": "info@blanka.co",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -26,6 +26,30 @@
             "teslamotors.com"
         ],
         "email": "info@teslamotors.com",
+        "entities": [
+            "tesla"
+        ],
+        "customer": "muskinc",
+        "isMaintenanceMode": false,
+        "isActive": true,
+        "canDisplay": true,
+        "createdOn": "2014-08-09T07:53:12Z",
+        "softDeleted": false
+    },
+    {
+        "_id": "muskinc",
+        "type": "Customer",
+        "name": "Musk Inc",
+        "primaryDomain": "muskinc.com",
+        "domains": [
+            "muskinc.com"
+        ],
+        "email": "elon@muskinc.com",
+        "entities": [
+            "muskinc",
+            "tesla"
+        ],
+        "partner": "authenticentertainment",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -43,6 +67,10 @@
             "apple.com.au"
         ],
         "email": "info@apple.com",
+        "entities": [
+            "apple"
+        ],
+        "partner": "authenticentertainment",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -53,13 +81,17 @@
         "_id": "google",
         "type": "Customer",
         "name": "Google",
-        "primaryDomain": "google.zoopcommerce.local",
+        "primaryDomain": "google.com",
         "domains": [
-            "google.zoopcommerce.local",
             "google.com",
             "google.com.au"
         ],
         "email": "info@google.com",
+        "entities": [
+            "google",
+            "youtube"
+        ],
+        "partner": "authenticentertainment",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -71,6 +103,13 @@
         "type": "Partner",
         "name": "Authentic Entertainment",
         "email": "info@authenticentertainment.com.au",
+        "entities": [
+            "authenticentertainment",
+            "google",
+            "youtube",
+            "muskinc",
+            "tesla"
+        ],
         "phoneNumber": "+1 718 222 0281",
         "address": {
             "line1": "Level 4 21-31 Goodwood Street",
@@ -99,6 +138,10 @@
             "nestle.com"
         ],
         "email": "info@nestle.com",
+        "entities": [
+            "nespresso-en-us"
+        ],
+        "customer": "nespresso",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -115,6 +158,10 @@
             "nestle.com.au"
         ],
         "email": "info@nestle.com.au",
+        "entities": [
+            "nespresso-en-au"
+        ],
+        "customer": "nespresso",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -132,6 +179,9 @@
             "bmw.com.au"
         ],
         "email": "info@bmw.com",
+        "entities": [
+            "bmw"
+        ],
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,
@@ -148,6 +198,10 @@
             "youtube.com"
         ],
         "email": "info@youtube.com",
+        "entities": [
+            "youtube"
+        ],
+        "customer": "google",
         "isMaintenanceMode": false,
         "isActive": true,
         "canDisplay": true,

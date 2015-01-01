@@ -8,6 +8,9 @@
     "domains": [
         "bigspaceship.com"
     ],
+    "entities": [
+        "bigspaceship"
+    ],
     "address": {
         "line1": "45 Main St. Suite 716",
         "city": "Brooklyn",
@@ -15,6 +18,9 @@
         "postcode": "11201",
         "country": "US"
     },
+    "isMaintenanceMode": false,
+    "isActive": true,
+    "canDisplay": true,
     "createdOn": "2014-08-29T22:39:14Z",
     "updatedOn": "2014-08-29T22:39:14Z",
     "softDeleted": false
